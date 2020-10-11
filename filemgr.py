@@ -7,7 +7,7 @@
 
 import glob, os, re
 import autograder_main
-directory = "C:\\Users\\zachn\\OneDrive\\Desktop\\lab5\\tmp2"
+directory = "C:\\Users\\zachn\\OneDrive\\Documents\\labs\\lab5"
 
 os.chdir(directory)
 

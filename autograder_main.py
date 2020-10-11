@@ -11,7 +11,7 @@ import indexpage_checker
 import personalpage_checker
 import academicpage_checker
 import glob, os
-absolutepathtosolution = "C:\\Users\\zachn\\OneDrive\\Documents\\GitHub\\document2\\notebook\\cs006_lab5\\solution\\"
+absolutepathtosolution = "C:\\Users\\zachn\\OneDrive\\Documents\\GitHub\\cs006_lab5\\sol\\"
 
 def autograderm(fd,htmlpo, csspo):
     grades = 0
@@ -153,5 +153,3 @@ def findallfiles():
     ou = autograderm(allfile,htmlpointsoff,csspointsoff)
 
     return ou
-
-findallfiles()

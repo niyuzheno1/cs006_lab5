@@ -1,0 +1,107 @@
+main {
+   margin-top: 0;
+   margin-left: auto; 
+   margin-right: auto;
+   color: #000000;
+   background-color : #0c51ff;
+}
+
+hgroup {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+ background-color: #7fffd4; 
+ background-image: linear-gradient(
+    to right,
+    rgba(237,20,61, 0.5), 
+    rgba(0, 55, 232, 0.5)),
+    url("zach_happy.JPG");
+
+}
+
+p, ul, ol, dl {
+  font-family: 'Open-Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: rgba(177,54,90, 0.75);
+  padding: 5px;
+  color: #000000;
+  width: 100%;
+}
+
+/* The navbar container. Class selector (topnav) used with <div> */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(33, 33, 33, 0.95); 
+  font-family: 'Raleway', sans-serif;
+  display: flex; 
+  justify-content: center; 
+  align-content: center;
+}
+
+/* The navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(248, 248, 219);
+  padding: 16px 10px;
+  text-decoration: none;
+}
+
+  /* links - change color on hover */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/:hover */
+.topnav a:hover {
+  background-color: rgb(248, 248, 219);
+  color: black;
+} 
+
+
+/* create three equal columns that float side-by-side */
+.column {
+  float: left;
+  width: 33.33%;
+  padding-left : 5px;
+  padding-right : 5px;
+}
+
+/* clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* responsive layout - on smaller screens (660px wide or less), 
+   stacks three columns on top of each other in horizontal 
+   sequence instead of next to each other on smaller screens */
+@media screen and (max-width: 600px) {
+ .column {
+  width: 100%;
+ }
+} 
+
+
+.topfooter {
+  overflow: hidden;
+  text-decoration: none;
+  display: flex; 
+  justify-content: center; 
+  align-content: center;
+  background-color: rgba(33, 33, 33, 0.95);
+  color: rgb(248, 248, 219);
+
+}
+
+
